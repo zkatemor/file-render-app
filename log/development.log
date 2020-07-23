@@ -1,0 +1,1701 @@
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (130.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (66.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-07-23 09:02:38.664996"], ["updated_at", "2020-07-23 09:02:38.664996"]]
+  [1m[35m (101.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/api-docs/index.html?urls.primaryName=API%20V2%20Docs" for 127.0.0.1 at 2020-07-23 12:24:07 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=render" for 127.0.0.1 at 2020-07-23 12:24:20 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"render"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1474)
+
+
+Started GET "/rails/info/routes?path=render" for 127.0.0.1 at 2020-07-23 12:24:20 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"render"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 586)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/api-docs/index.html?urls.primaryName=API%20V2%20Docs" for 127.0.0.1 at 2020-07-23 12:28:16 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 12:29:27 +0300
+Processing by RenderController#show as */*
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 426)
+
+
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 12:31:58 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as */*
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 195)
+
+
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 12:33:01 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as */*
+[wicked_pdf]: ["/home/ekaterina/.rbenv/versions/2.7.0/bin/wkhtmltopdf", "--zoom", "1.32", "--dpi", "300", "--page-size", "A4", "--margin-top", "0", "--margin-bottom", "0", "--margin-left", "0", "--margin-right", "0", "file:////tmp/wicked_pdf20200723-312-jk797o.html", "/tmp/wicked_pdf_generated_file20200723-312-7iy9ce.pdf"]
+Sent data test.pdf (2.0ms)
+Completed 500 Internal Server Error in 1209ms (ActiveRecord: 0.0ms | Allocations: 2178)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:21:in `render'
+app/controllers/render_controller.rb:18:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 12:33:23 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as */*
+[wicked_pdf]: ["/home/ekaterina/.rbenv/versions/2.7.0/bin/wkhtmltopdf", "--zoom", "1.32", "--dpi", "300", "--page-size", "A4", "--margin-top", "0", "--margin-bottom", "0", "--margin-left", "0", "--margin-right", "0", "file:////tmp/wicked_pdf20200723-731-y2no8a.html", "/tmp/wicked_pdf_generated_file20200723-731-1eerprx.pdf"]
+Sent data test.pdf (1.5ms)
+Completed 500 Internal Server Error in 1074ms (ActiveRecord: 0.0ms | Allocations: 2051)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:21:in `render'
+app/controllers/render_controller.rb:18:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/render" for 127.0.0.1 at 2020-07-23 12:47:34 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/render"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api-docs/index.html?urls.primaryName=API%20V2%20Docs" for 127.0.0.1 at 2020-07-23 12:47:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/render/index" for 127.0.0.1 at 2020-07-23 12:47:53 +0300
+Processing by RenderController#index as */*
+Completed 200 OK in 7ms (ActiveRecord: 0.0ms | Allocations: 426)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 12:59:30 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as PDF
+Sent data export.pdf (16.9ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms | Allocations: 52780)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:28:in `render'
+app/controllers/render_controller.rb:20:in `block (2 levels) in show'
+app/controllers/render_controller.rb:14:in `show'
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 12:59:59 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as PDF
+Sent data export.pdf (0.3ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4314)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:20:in `render'
+app/controllers/render_controller.rb:12:in `block (2 levels) in show'
+app/controllers/render_controller.rb:6:in `show'
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 13:00:59 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as */*
+Completed 200 OK in 1ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 13:01:15 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as */*
+Sent data export.pdf (0.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 4468)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:20:in `render'
+app/controllers/render_controller.rb:12:in `block (2 levels) in show'
+app/controllers/render_controller.rb:6:in `show'
+Started GET "/render" for 127.0.0.1 at 2020-07-23 13:01:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/render"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 13:01:37 +0300
+Processing by RenderController#show as PDF
+Sent data export.pdf (0.4ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 4311)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:20:in `render'
+app/controllers/render_controller.rb:12:in `block (2 levels) in show'
+app/controllers/render_controller.rb:6:in `show'
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 13:01:48 +0300
+Processing by RenderController#show as PDF
+Sent data export.pdf (17.0ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms | Allocations: 4311)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:20:in `render'
+app/controllers/render_controller.rb:12:in `block (2 levels) in show'
+app/controllers/render_controller.rb:6:in `show'
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 13:03:09 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as */*
+Completed 200 OK in 0ms (ActiveRecord: 0.0ms | Allocations: 147)
+
+
+Started GET "/render/render" for 127.0.0.1 at 2020-07-23 13:03:13 +0300
+Processing by RenderController#render as */*
+Completed 200 OK in 3ms (ActiveRecord: 0.0ms | Allocations: 313)
+
+
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 13:15:46 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as */*
+Sent data export.pdf (0.3ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 4255)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:20:in `render'
+app/controllers/render_controller.rb:12:in `block (2 levels) in show'
+app/controllers/render_controller.rb:6:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/api-docs/index.html?urls.primaryName=API%20V2%20Docs" for 127.0.0.1 at 2020-07-23 14:04:44 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=expo" for 127.0.0.1 at 2020-07-23 14:04:50 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"expo"}
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1577)
+
+
+Started GET "/rails/info/routes?path=export" for 127.0.0.1 at 2020-07-23 14:04:51 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"export"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 613)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/api-docs/index.html?urls.primaryName=API%20V2%20Docs" for 127.0.0.1 at 2020-07-23 14:05:05 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=export" for 127.0.0.1 at 2020-07-23 14:05:09 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"export"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1576)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 14:15:43 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as PDF
+Sent data export.pdf (1.7ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms | Allocations: 52792)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:19:in `render'
+app/controllers/render_controller.rb:11:in `block (2 levels) in show'
+app/controllers/render_controller.rb:6:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 14:15:51 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/export/show.pdf"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/report/show.pdf" for 127.0.0.1 at 2020-07-23 14:16:16 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/report/show.pdf"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/report/show" for 127.0.0.1 at 2020-07-23 14:16:41 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/report/show"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/report" for 127.0.0.1 at 2020-07-23 14:16:45 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/report"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/api-docs/index.html?urls.primaryName=API%20V2%20Docs" for 127.0.0.1 at 2020-07-23 14:16:50 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2020-07-23 14:19:01 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/railties-6.0.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.1ms | Allocations: 183)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 932)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 14:29:52 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by RenderController#show as PDF
+Sent data export.pdf (1.5ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.0ms | Allocations: 52792)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/render_controller.rb:19:in `render'
+app/controllers/render_controller.rb:11:in `block (2 levels) in show'
+app/controllers/render_controller.rb:6:in `show'
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 14:30:05 +0300
+Processing by RenderController#show as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 492)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/render_controller.rb:6:in `show'
+Started GET "/render/" for 127.0.0.1 at 2020-07-23 14:30:09 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/render"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/rails/info/routes?path=render" for 127.0.0.1 at 2020-07-23 14:30:49 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"render"}
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1571)
+
+
+Started GET "/rails/info/routes?path=expo" for 127.0.0.1 at 2020-07-23 14:31:10 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"expo"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 614)
+
+
+Started GET "/rails/info/routes?path=export" for 127.0.0.1 at 2020-07-23 14:31:11 +0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"export"}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 612)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/render/" for 127.0.0.1 at 2020-07-23 14:32:18 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/render"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 14:32:30 +0300
+Processing by ExportController#show as PDF
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (35.8ms)
+Completed 200 OK in 43ms (Views: 35.5ms | ActiveRecord: 0.0ms | Allocations: 4447)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 14:40:11 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (1.1ms)
+Completed 200 OK in 21ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 4240)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 14:43:26 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms | Allocations: 2866)
+
+
+  
+NoMethodError (undefined method `styled_text' for #<Prawn::Document:0x000055d69b580260>):
+  
+app/controllers/export_controller.rb:7:in `block (2 levels) in show'
+app/controllers/export_controller.rb:3:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 14:43:35 +0300
+Processing by ExportController#show as PDF
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2900)
+
+
+  
+NoMethodError (undefined method `styled_text' for #<Prawn::Document:0x000055d69c4e7bb8>):
+  
+app/controllers/export_controller.rb:7:in `block (2 levels) in show'
+app/controllers/export_controller.rb:3:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 14:43:53 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 3)
+Sent data export.pdf (3.9ms)
+Completed 200 OK in 89ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 53556)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 14:46:47 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>"<h2>Hello</h2>"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Sent data export.pdf (0.8ms)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 3720)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:25:26 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>"<h2>Hello</h2>"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Sent data export.pdf (1.0ms)
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 3735)
+
+
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-23 15:25:44 +0300
+Processing by ExportController#show as HTML
+  Parameters: {"html"=>"<h2>Hello</h2>"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data  (0.4ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 363)
+
+
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-23 15:28:33 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Parameters: {"html"=>"<h2>Hello</h2>"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1677)
+
+
+  
+NoMethodError (undefined method `render' for "<h2>Hello</h2>":String):
+  
+app/controllers/export_controller.rb:15:in `block (2 levels) in show'
+app/controllers/export_controller.rb:4:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-23 15:28:48 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Parameters: {"html"=>"<h2>Hello</h2>"}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1828)
+
+
+  
+NoMethodError (undefined method `render' for "<h2>Hello</h2>":String):
+  
+app/controllers/export_controller.rb:15:in `block (2 levels) in show'
+app/controllers/export_controller.rb:4:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-23 15:29:09 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Parameters: {"html"=>"<h2>Hello</h2>"}
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 508)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/export_controller.rb:4:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:29:15 +0300
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>"<h2>Hello</h2>"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Sent data export.pdf (25.3ms)
+Completed 200 OK in 154ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 54838)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:31:32 +0300
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>#<ActionDispatch::Http::UploadedFile:0x000055ed2bc49910 @tempfile=#<Tempfile:/tmp/RackMultipart20200723-13119-1puj6ni.html>, @original_filename="test.html", @content_type="text/html", @headers="Content-Disposition: form-data; name=\"html\"; filename=\"test.html\"\r\nContent-Type: text/html\r\n">}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (0.7ms)
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1755)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:33:57 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>#<ActionDispatch::Http::UploadedFile:0x000055ed2b701cf0 @tempfile=#<Tempfile:/tmp/RackMultipart20200723-13119-1we99ex.html>, @original_filename="test.html", @content_type="text/html", @headers="Content-Disposition: form-data; name=\"html\"; filename=\"test.html\"\r\nContent-Type: text/html\r\n">}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 1972)
+
+
+  
+Prawn::Errors::IncompatibleStringEncoding (Your document includes text that's not compatible with the Windows-1252 character set.
+If you need full UTF-8 support, use TTF fonts instead of PDF's built-in fonts.
+):
+  
+app/controllers/export_controller.rb:8:in `block (2 levels) in show'
+app/controllers/export_controller.rb:4:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/RubymineProjects/report-generator-app/config/environment.rb:5)
+Started GET "/render/show" for 127.0.0.1 at 2020-07-23 15:39:40 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant RenderController):
+  
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 15:39:47 +0300
+  
+ActionController::RoutingError (uninitialized constant RenderController):
+  
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 15:40:02 +0300
+  
+ActionController::RoutingError (uninitialized constant RenderController):
+  
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/render/show.pdf" for 127.0.0.1 at 2020-07-23 15:40:18 +0300
+  
+ActionController::RoutingError (uninitialized constant RenderController):
+  
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:92:in `rescue in controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (6.0.3.2) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:44:in `controller'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3.2) lib/action_dispatch/routing/route_set.rb:834:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3.2) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:40:34 +0300
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>"<h1>hdjjdf</h1>"}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 2)
+Sent data export.pdf (2.8ms)
+Completed 200 OK in 106ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 52349)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:42:14 +0300
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>"<tbody><tr height=\"0\"><td style=\"WIDTH:0px\"></td><td style=\"WIDTH:6.05mm;min-width:6.05mm\"></td><td style=\"WIDTH:16.40mm;min-width:16.40mm\"></td><td style=\"WIDTH:28.88mm;min-width:28.88mm\"></td><td style=\"WIDTH:41.67mm;min-width:41.67mm\"></td><td style=\"WIDTH:70.51mm;min-width:70.51mm\"></td><td style=\"WIDTH:74.30mm;min-width:74.30mm\"></td><td style=\"WIDTH:22.90mm;min-width:22.90mm\"></td><td style=\"WIDTH:22.82mm;min-width:22.82mm\"></td><td style=\"WIDTH:78.42mm;min-width:78.42mm\"></td><td style=\"WIDTH:10.05mm;min-width:10.05mm\"></td><td style=\"WIDTH:15.66mm;min-width:15.66mm\"></td><td style=\"WIDTH:12.92mm;min-width:12.92mm\"></td><td style=\"WIDTH:0.35mm;min-width:0.35mm\"></td><td style=\"WIDTH:23.24mm;min-width:23.24mm\"></td><td style=\"WIDTH:0.71mm;min-width:0.71mm\"></td><td style=\"WIDTH:25.44mm;min-width:25.44mm\"></td><td style=\"WIDTH:0.44mm;min-width:0.44mm\"></td><td style=\"WIDTH:23.42mm;min-width:23.42mm\"></td></tr><tr valign=\"top\"><td style=\"HEIGHT:3.81mm;WIDTH:0.00mm\"></td><td></td><td rowspan=\"5\" colspan=\"6\"><div class=\"A0c139f33a27440cc808c011c2f8190174\"><img class=\"P77ead50377ff4faea5306298f379472e_1_r1\" src=\"/crmtest/Reserved.ReportViewerWebControl.axd?ReportSession=ha3jz4ffbzdvbm55vrzvpn55&amp;Culture=1049&amp;CultureOverrides=True&amp;UICulture=1049&amp;UICultureOverrides=True&amp;ReportStack=1&amp;ControlID=77ead50377ff4faea5306298f379472e&amp;OpType=ReportImage&amp;IterationId=31edaa10902f43c6a127961b3cddab07&amp;StreamID=4ca3a60d-728e-497f-8bd1-f29210e734f6\"></div></td><td colspan=\"11\"></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.35mm;WIDTH:0.00mm\"></td><td></td><td rowspan=\"5\" colspan=\"3\"></td><td colspan=\"5\"><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:52.87mm;min-width:51.46mm;HEIGHT:6.35mm;\" class=\"A0c139f33a27440cc808c011c2f81901737\"><div style=\"WIDTH:51.46mm;\">23.07.2020 11:16</div></td></tr></tbody></table></td><td rowspan=\"5\" colspan=\"3\"></td></tr><tr><td style=\"HEIGHT:2.28mm;WIDTH:0.00mm\"></td><td></td><td colspan=\"5\"></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.35mm;WIDTH:0.00mm\"></td><td></td><td colspan=\"2\"><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:28.58mm;min-width:27.16mm;HEIGHT:6.35mm;\" class=\"A0c139f33a27440cc808c011c2f81901740\"><div style=\"WIDTH:27.16mm;\">02.07.2020</div></td></tr></tbody></table></td><td></td><td colspan=\"2\"><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:23.94mm;min-width:22.53mm;HEIGHT:6.35mm;\" class=\"A0c139f33a27440cc808c011c2f81901743\"><div style=\"WIDTH:22.53mm;\">23.07.2020</div></td></tr></tbody></table></td></tr><tr><td style=\"HEIGHT:9.26mm;WIDTH:0.00mm\"></td><td></td><td rowspan=\"2\" colspan=\"5\"></td></tr><tr><td style=\"HEIGHT:2.52mm;WIDTH:0.00mm\"></td><td colspan=\"7\"></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.71mm;WIDTH:0.00mm\"></td><td></td><td><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:16.40mm;min-width:14.29mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f8190177\"><div style=\"WIDTH:14.99mm;\">Request</div></td></tr></tbody></table></td><td><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:28.88mm;min-width:26.76mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901710\"><div style=\"WIDTH:27.47mm;\">Date</div></td></tr></tbody></table></td><td><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:41.67mm;min-width:39.55mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901713\"><div style=\"WIDTH:40.26mm;\">Customer</div></td></tr></tbody></table></td><td><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:70.51mm;min-width:68.39mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901716\"><div style=\"WIDTH:69.09mm;\">From</div></td></tr></tbody></table></td><td><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:74.30mm;min-width:72.18mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901719\"><div style=\"WIDTH:72.89mm;\">To</div></td></tr></tbody></table></td><td colspan=\"2\"><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:45.73mm;min-width:43.61mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901722\"><div style=\"WIDTH:44.31mm;\">Flight</div></td></tr></tbody></table></td><td><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:78.42mm;min-width:76.30mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901725\"><div style=\"WIDTH:77.01mm;\">Comment</div></td></tr></tbody></table></td><td colspan=\"2\"><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:25.71mm;min-width:23.59mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901728\"><div style=\"WIDTH:24.29mm;\">Supplier</div></td></tr></tbody></table></td><td colspan=\"3\"><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:36.51mm;min-width:34.39mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901731\"><div style=\"WIDTH:35.10mm;\">Order</div></td></tr></tbody></table></td><td colspan=\"3\"><table cellspacing=\"0\" cellpadding=\"0\" lang=\"ru-RU\" style=\"\"><tbody><tr><td style=\"WIDTH:26.59mm;min-width:24.47mm;HEIGHT:6.71mm;\" class=\"A0c139f33a27440cc808c011c2f81901734\"><div style=\"WIDTH:25.18mm;\">Status</div></td></tr></tbody></table></td><td></td></tr><tr valign=\"top\"><td style=\"HEIGHT:258.00mm;WIDTH:0.00mm\"></td><td></td><td colspan=\"15\"><table cellspacing=\"0\" cellpadding=\"0\" cols=\"10\" border=\"0\" style=\"border-collapse:collapse;\" class=\"A0c139f33a27440cc808c011c2f819017106\"><tbody><tr height=\"0\"><td style=\"WIDTH:16.40mm;min-width:16.40mm\"></td><td style=\"WIDTH:30.29mm;min-width:30.29mm\"></td><td style=\"WIDTH:41.67mm;min-width:41.67mm\"></td><td style=\"WIDTH:71.74mm;min-width:71.74mm\"></td><td style=\"WIDTH:74.48mm;min-width:74.48mm\"></td><td style=\"WIDTH:47.49mm;min-width:47.49mm\"></td><td style=\"WIDTH:72.51mm;min-width:72.51mm\"></td><td style=\"WIDTH:25.00mm;min-width:25.00mm\"></td><td style=\"WIDTH:37.56mm;min-width:37.56mm\"></td><td style=\"WIDTH:27.12mm;min-width:27.12mm\"></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510470</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 06:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Ильвова Алла</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Врачебный проспект, д 10, Ставрополь, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">дом без корпуса (рядом есть дома 10 с корпусами 1,2...). высотка желтого кирпича со \"скворечниками\" сверху</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510540</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 06:45</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Самусева Оксана</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Олимпийский проспект, 10 корпус 1, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">У шлагбаума, 1 бустер для ребнка 6</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9354334</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510689</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 13:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Давыдова Ольга</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Митинская улица, 28 корпус 4, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\"> ул.Митинская, д28, корп4, подъезд 2, 1 пассажир, 1 багаж</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510570</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 13:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Петляшенко Людмила</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Керченская улица, дом 8, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 пассажира, 2 чемодана</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9353431</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510686</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 13:45</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Малова Дарья</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Метро Новокузнецкая, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Международный аэропорт Внуково, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">3 пасс. </div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9357901</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510642</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 16:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Гафтуняк Петр</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Лестева, 8, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1 пасс</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9355568</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510483</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 16:05</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Трофимик Анастасия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Боровское шоссе, 2 корпус 1, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\"> UT 576</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510678</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 16:50</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Степанцев Степан</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">улица Покрышкина, 8, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">S7 1012 СПб - Москва, прилет в 16:50</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1 пассажир, 1 багаж</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">Поездка #9357300</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510744</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 17:40</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Шифрин Ян</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Казанский вокзал, Комсомольская площадь, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">улица Пивченкова, 4, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1<br></div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510654</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">02.07.2020 23:20</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Желтухина Екатерина</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Никулинская улица, 15к2, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Аэропорт Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Подъезд 8, 1 пассажир, 1 багаж</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510552</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 05:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Рутман Борис</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Сусанинский переулок, 5, Немчиновка, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 чел </div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\"> #9353783 </div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510813</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 10:20</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Фукс Павло Мс</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Крылатская улица, 10, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Подача к дому 10, стр. 1. Следовать до а/п Внуково-3, там некоторое время ожидать. Потом возможно будет поездка до другого адреса в Москве</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510748</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 10:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Ломакина Елена</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Мосфильмовская ул., 6, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Терминал F</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510803</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 12:05</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Коровкин Дмитрий</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">коттеджный поселок Заря Подмосковья, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">SU 1483 Красноярск - Москва, прилет в 12:05</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1 пассажир, 1 багаж.</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510847</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 14:15</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Лепехин Дмитрий</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Асеева, 8, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Международный аэропорт Внуково, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Пассажир: Анастасия, 9175563227</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510432</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 16:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Денисов Дмитрий</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Товарищеский пер., д.17 стр.1, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Москва Ленинградская, Комсомольская площадь, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 пассажира, 1 багаж</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510687</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 21:20</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Швейн Александр</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Бажова, 8, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">4 подъезд<br>1 пасс</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9360969</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510624</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 21:45</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Денисова Наталья</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Варшавское ш., 141к6, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">DP128</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 пассажира<br>79175321519 - Елена</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">cancelled by client</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510821</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 23:08</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Николаева Марина</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Москва Ленинградская, Комсомольская пл., 3, Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510929</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">03.07.2020 23:55</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Мрыхин Павел</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Днепропетровская ул., 16, Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Международный аэропорт Внуково, Внуково, Московская обл., Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9366374</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510536</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 03:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Бурнаева Юлия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Севастопольский проспект, 44 корпус 5, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9354408</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510728</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 05:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Брайович Мария</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Наметкина, 17/68, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Аэропорт Домодедово (DME), Домодедово, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">U6-43</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\"> будем ждать машину у шлакбаума со стороны Новочерёмушкинской улицы. Это важно, дом большой.</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">#9359949</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510905</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 06:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Алексахина Мария</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">ул. Барклая, д.7/1, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Аэропорт Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 взрослых, 1 ребенок 7 лет. Необходим бустер<br>Въезд со стороны Костанаевской. Ожидать у шлагбаума. <br>1 багаж</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">#9365938</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510802</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 06:15</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Храмов Андрей</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Курский вокзал, площадь Курского Вокзала, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">SU 1511 Сургут - Москва, прилет в 06:15</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1 пассажир, 1 багаж.</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">Поездка #9362731</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510719</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 07:15</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Мацота Евгений</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Грина, 20, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 пассажира</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9360635</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510698</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 09:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Кондратюк Антон</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Павла Андреева, 4, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 пасс</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9360980</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510805</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 16:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Дубровинская Ирина</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">улица Наметкина, 9, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">WZ 5266 Мин. Воды - Москва, прилет в 16:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Следовать до 4 подъезда. 2 взрослых и ребенок 10 лет (нужен бустер). Контактное лицо Александр телефон +79163295617</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">Поездка #9362980</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511015</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 18:20</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Пронина Оксана</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Волоколамское ш., 71к2, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510480</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 20:20</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Харитонов Вячеслав</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">улица Гарибальди, 15, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">SU 1769 Пермь – Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1 пассажир</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510879</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 22:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Колмакова Оксана</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Маршала Тимошенко улица, 15, Москва, Moscow Oblast, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 чел</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">#9368463</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510407</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">04.07.2020 23:13</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Завацкий Сергей</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Киевский вокзал, площадь Киевского Вокзала, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Аэропорт Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Поезд 742<br>1 пасс + 1 багаж</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9350151</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510930</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 01:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Головенчиц Ирина</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Чечёрский проезд, 84, Москва, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 взрослых, 2 детей 12 и 14лет<br>2 багажа</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\"> #9366461</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510918</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 07:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Миридонов Андрей</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Колхозная улица, 20, Люберцы, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">2 пассажира, 2 бегажа<br>Ширшова Елена +79857636186</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">#9366233</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511103</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 13:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Магатаев Вали-Магомед</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">улица Академика Пилюгина, 14 корпус 1, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Московский аэропорт Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">пассажир. 89337771797. позвоните за 10 минут до подачи машины. </div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510188</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 13:50</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Зиборова Ольга</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Борисовская ул., 4, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">SU 1139 Сочи – Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Может ехать по платным дорогам!</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9339216</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511142</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 15:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Ашаев Артем</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Шереметьево, Шереметьево - аэропорт имени А.С. Пушкина, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Соколовская ул., 7, Новогорский, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Шереметьево B, выход 4</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511083</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 18:10</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Гафтуняк Петр</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Аэропорт Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">улица Липовый Парк, д.4, Коммунарка, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">S72004</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1 пассажир, ручная кладь<br>+7 916-885-52-93 основной номер</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">#9373776</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511167</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 20:20</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Нуруллин Рауф</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Шереметьево - аэропорт имени А.С. Пушкина, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Ботаническая улица, 33в, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">SU 1193</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">Маршрут: Шереметьево В - Ботаническая, 33В с.1 п.1 </div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511111</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 20:40</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Малова Дарья</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Нагатинская улица, 29к2, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">DP 182 Волгоград – Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9376396</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511108</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 21:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Швейн Александр</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Шереметьево - аэропорт имени А.С. Пушкина, Терминал B, Химки, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">улица Бажова, 8, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">SU 1507 Тюмень – Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9376404</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">509300</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">05.07.2020 22:30</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Паршинцев Дмитрий</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Внуково Международный Аэропорт, Внуково, Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">улица Авиамоторная, 51, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl\"><div class=\"A0c139f33a27440cc808c011c2f81901777\">DP 266 Калининград – Москва</div></td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">пассажир: Константин, +79602468255</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9300643</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">511151</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">06.07.2020 00:35</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Денисов Дмитрий</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Москва Ленинградская, Комсомольская площадь, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Товарищеский пер., д.17 стр.1, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">1 пасс</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl\"><div class=\"A0c139f33a27440cc808c011c2f81901785\">Wheely</div></td><td class=\"A0c139f33a27440cc808c011c2f81901789cl\"><div class=\"A0c139f33a27440cc808c011c2f81901789\">9378534</div></td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr><tr valign=\"top\"><td style=\"HEIGHT:6.00mm;\" class=\"A0c139f33a27440cc808c011c2f81901757cr\"><div class=\"A0c139f33a27440cc808c011c2f81901757\">510989</div></td><td class=\"A0c139f33a27440cc808c011c2f81901761cl\"><div class=\"A0c139f33a27440cc808c011c2f81901761\">06.07.2020 05:00</div></td><td class=\"A0c139f33a27440cc808c011c2f81901765cl\"><div class=\"A0c139f33a27440cc808c011c2f81901765\">Гарманова Анна</div></td><td class=\"A0c139f33a27440cc808c011c2f81901769cl\"><div class=\"A0c139f33a27440cc808c011c2f81901769\">Маломосковская улица, 14, Москва, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901773cl\"><div class=\"A0c139f33a27440cc808c011c2f81901773\">Московский аэропорт Домодедово (DME), Московская область, Россия</div></td><td class=\"A0c139f33a27440cc808c011c2f81901777cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901781cl\"><div class=\"A0c139f33a27440cc808c011c2f81901781\">4 человека</div></td><td class=\"A0c139f33a27440cc808c011c2f81901785cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901789cl P77ead50377ff4faea5306298f379472e_1_r14\">&nbsp;</td><td class=\"A0c139f33a27440cc808c011c2f81901793cl\"><div class=\"A0c139f33a27440cc808c011c2f81901793\">completed</div></td></tr></tbody></table></td><td colspan=\"2\"></td></tr></tbody>"}
+Completed 500 Internal Server Error in 213ms (ActiveRecord: 0.0ms | Allocations: 43970)
+
+
+  
+ArgumentError (/crmtest/Reserved.ReportViewerWebControl.axd?ReportSession=ha3jz4ffbzdvbm55vrzvpn55&Culture=1049&CultureOverrides=True&UICulture=1049&UICultureOverrides=True&ReportStack=1&ControlID=77ead50377ff4faea5306298f379472e&OpType=ReportImage&IterationId=31edaa10902f43c6a127961b3cddab07&StreamID=4ca3a60d-728e-497f-8bd1-f29210e734f6 not found):
+  
+app/controllers/export_controller.rb:8:in `block (2 levels) in show'
+app/controllers/export_controller.rb:4:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:42:49 +0300
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>#<ActionDispatch::Http::UploadedFile:0x000055a72c17c3d8 @tempfile=#<Tempfile:/tmp/RackMultipart20200723-14379-1ex5evd.html>, @original_filename="test.html", @content_type="text/html", @headers="Content-Disposition: form-data; name=\"html\"; filename=\"test.html\"\r\nContent-Type: text/html\r\n">}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (1.4ms)
+Completed 200 OK in 5ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 1761)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-23 15:50:39 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 496)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/export_controller.rb:4:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 15:50:49 +0300
+Processing by ExportController#show as PDF
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (0.7ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1760)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:10:18 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>"<html>\n<head>\n    <title>Users</title>\n    <style type=\"text/css\">\n        h1 {\n            font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n            font-size: 20px;\n        }\n\n        body {\n            font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n        }\n\n        button {\n            padding: 12px 20px;\n            margin: 8px 0;\n            display: inline-block;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n        }\n\n        input[type=text], select {\n            padding: 12px 20px;\n            margin: 8px 0;\n            display: inline-block;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n        }\n\n        table {\n            font-family: \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n            border-collapse: collapse;\n            width: 100%;\n        }\n\n        table td, table th {\n            border: 1px solid #ddd;\n            padding: 8px;\n        }\n\n        table tr:nth-child(even) {\n            background-color: #f2f2f2;\n        }\n\n        table tr:hover {\n            background-color: #ddd;\n        }\n\n        table th {\n            padding-top: 12px;\n            padding-bottom: 12px;\n            text-align: left;\n            background-color: #cccccc;\n            color: white;\n        }\n    </style>\n</head>\n<body>\n<div>\n    <div>\n\t<img src=\"https://hh.ru/employer-logo/2766448.png\" alt=\"apple\" width=\"200\" height=\"200\">\n        <h1>Users Database</h1>\n        <table>\n            <thead>\n            <tr>\n                <th>id</th>\n                <th>Name</th>\n                <th>Username</th>\n                <th>Email</th>\n                <th>Phone</th>\n                <th>Website</th>\n            </tr>\n            </thead>\n            <tbody>\n            <tr>\n                <td>1</td>\n                <td>Test</td>\n                <td>Test</td>\n                <td>test@test.test</td>\n                <td>71111111111</td>\n                <td>www.test.test</td>\n            </tr>\n\t    <tr>\n                <td>2</td>\n                <td>Hello</td>\n                <td>Hello</td>\n                <td>hello@bye.bye</td>\n                <td>78888888888</td>\n                <td>www.hello.hello</td>\n            </tr>\n            </tbody>\n        </table>\n    </div>\n</div>\n</body>\n</html>"}
+Completed 500 Internal Server Error in 105ms (ActiveRecord: 0.0ms | Allocations: 114509)
+
+
+  
+ArgumentError (https://hh.ru/employer-logo/2766448.png not found):
+  
+app/controllers/export_controller.rb:8:in `block (2 levels) in show'
+app/controllers/export_controller.rb:4:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:13:11 +0300
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>#<ActionDispatch::Http::UploadedFile:0x000055a72bea21a8 @tempfile=#<Tempfile:/tmp/RackMultipart20200723-14379-seeacf.html>, @original_filename="users.html", @content_type="text/html", @headers="Content-Disposition: form-data; name=\"html\"; filename=\"users.html\"\r\nContent-Type: text/html\r\n">}
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (0.6ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1757)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:16:27 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Parameters: {"html"=>#<ActionDispatch::Http::UploadedFile:0x00007efdd8a5c558 @tempfile=#<Tempfile:/tmp/RackMultipart20200723-14379-13mg5zb.html>, @original_filename="users.html", @content_type="text/html", @headers="Content-Disposition: form-data; name=\"html\"; filename=\"users.html\"\r\nContent-Type: text/html\r\n">}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1079)
+
+
+  
+ActionView::MissingTemplate (Missing template /#<ActionDispatch::Http::UploadedFile:0x00007efdd8a5c558> with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/ekaterina/RubymineProjects/report-generator-app/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/export_controller.rb:6:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:17:27 +0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1035)
+
+
+  
+ActionView::MissingTemplate (Missing template /users.html with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/ekaterina/RubymineProjects/report-generator-app/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/export_controller.rb:6:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:18:05 +0300
+Processing by ExportController#show as PDF
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1114)
+
+
+  
+ActionView::MissingTemplate (Missing template /users.html with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/ekaterina/RubymineProjects/report-generator-app/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/export_controller.rb:6:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:18:57 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.4ms | Allocations: 62)
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms | Allocations: 115222)
+
+
+  
+ArgumentError (https://hh.ru/employer-logo/2766448.png not found):
+  
+app/controllers/export_controller.rb:12:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:19:36 +0300
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (0.9ms)
+Completed 200 OK in 117ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 177239)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:22:48 +0300
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.3ms | Allocations: 63)
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms | Allocations: 115322)
+
+
+  
+Prawn::Errors::UnknownFont (Trebuchet MS, Arial, Helvetica, sans-serif is not a known font.):
+  
+app/controllers/export_controller.rb:12:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:23:31 +0300
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.3ms | Allocations: 62)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms | Allocations: 115318)
+
+
+  
+Prawn::Errors::UnknownFont (sans-serif is not a known font.):
+  
+app/controllers/export_controller.rb:12:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:23:45 +0300
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (1.1ms)
+Completed 200 OK in 150ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 177282)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:27:13 +0300
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.4ms | Allocations: 63)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 24678)
+
+
+  
+ArgumentError (Unknown type of color: "white"):
+  
+app/controllers/export_controller.rb:12:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:29:00 +0300
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.3ms | Allocations: 62)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (0.8ms)
+Completed 200 OK in 44ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 63722)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-23 16:32:02 +0300
+Processing by ExportController#show as PDF
+  Rendering export/users.html
+  Rendered export/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.pdf (0.9ms)
+Completed 200 OK in 55ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 63952)
+
+
+Started GET "/export/users" for 127.0.0.1 at 2020-07-23 16:32:51 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/export/users"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
