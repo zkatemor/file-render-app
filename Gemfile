@@ -58,3 +58,20 @@ gem 'wkhtmltopdf-binary'
 
 gem 'prawn', '~>2.2.0'
 gem 'prawn-styled-text'
+
+gem 'excelinator', '~> 1.3', '>= 1.3.1'
+
+gem 'pdfkit'
+
+gem 'to_spreadsheet'
+gem 'spreadsheetkit'
+
+gem 'css_parser'
+
+gem 'write_xlsx_rails'
+
+gem 'pry-rails', :group => :development
+gem 'bullet', group: 'development'
+
+gem 'caxlsx'
+gem 'caxlsx_rails'
