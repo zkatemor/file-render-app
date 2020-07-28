@@ -19,6 +19,7 @@ class ExportController < ApplicationController
                   :type => 'application/vnd.ms-excel; charset=utf-8; header=present',
                   :filename => 'export.xls'
       end
+      format.xlsx
     end
   end
 end

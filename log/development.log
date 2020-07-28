@@ -2433,3 +2433,862 @@ NoMethodError (To respond to a custom format, register it as a MIME type first: 
   
 app/controllers/export_controller.rb:20:in `block in show'
 app/controllers/export_controller.rb:8:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-28 09:58:16 +0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 101.5ms | Allocations: 166)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.xls (39.8ms)
+Completed 200 OK in 228ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 3165)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-28 10:01:49 +0300
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 1.8ms | Allocations: 63)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (1.1ms)
+Completed 200 OK in 1604ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1432)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-28 10:03:58 +0300
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (1.6ms)
+Completed 200 OK in 31204ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 1478)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-28 10:06:53 +0300
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (0.9ms)
+Completed 200 OK in 31164ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1478)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 10:52:50 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 9)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.0ms | Allocations: 2049)
+
+
+  
+ActionView::MissingTemplate (Missing template export/html_string, application/html_string with {:locale=>[:en], :formats=>[:xlsx, :html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :wxlsx, :jbuilder, :axlsx]}. Searched in:
+  * "/home/ekaterina/Projects/file-render-app/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/export_controller.rb:23:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 10:53:12 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1741)
+
+
+  
+ActionView::MissingTemplate (Missing template export/export, application/export with {:locale=>[:en], :formats=>[:xlsx, :html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :wxlsx, :jbuilder, :axlsx]}. Searched in:
+  * "/home/ekaterina/Projects/file-render-app/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/export_controller.rb:23:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 10:58:58 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 1.6ms | Allocations: 61)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2328)
+
+
+  
+ActionView::MissingTemplate (Missing template export/export, application/export with {:locale=>[:en], :formats=>[:xlsx, :html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :wxlsx, :jbuilder, :axlsx]}. Searched in:
+  * "/home/ekaterina/Projects/file-render-app/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/export_controller.rb:23:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 10:59:37 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2327)
+
+
+  
+ActionView::MissingTemplate (Missing template export/export, application/export with {:locale=>[:en], :formats=>[:xlsx, :html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :wxlsx, :jbuilder, :axlsx]}. Searched in:
+  * "/home/ekaterina/Projects/file-render-app/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actiontext-6.0.3.2/app/views"
+  * "/home/ekaterina/.rbenv/versions/2.7.0/lib/ruby/gems/2.7.0/gems/actionmailbox-6.0.3.2/app/views"
+):
+  
+app/controllers/export_controller.rb:23:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 11:44:13 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.5ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 44.4ms | Allocations: 3870)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 0.0ms | Allocations: 6170)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 11:49:58 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.6ms | Allocations: 61)
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.6ms | Allocations: 65)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data  (0.8ms)
+Completed 200 OK in 34ms (Views: 31.3ms | ActiveRecord: 0.0ms | Allocations: 6470)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 11:50:17 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.0ms | Allocations: 4)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data  (0.9ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 4742)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:23:16 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 1.5ms | Allocations: 166)
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.4ms | Allocations: 90)
+Completed 200 OK in 22ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3284)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:24:20 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 5.1ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 10.1ms | Allocations: 3676)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 5945)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check wb = xlsx_package.workbook
+
+wb.add_worksheet(name: 'Test') do |sheet|
+    sheet.add_row [Title', 'First Release Date', 'Developer', 'Format', 'Collection', 'Released On', 'Summary']
+end
+):
+1:    wb = xlsx_package.workbook
+2:    
+3:    wb.add_worksheet(name: 'Test') do |sheet|
+4:        sheet.add_row [Title', 'First Release Date', 'Developer', 'Format', 'Collection', 'Released On', 'Summary']
+5:    end
+  
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:6: unterminated string meets end of file
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected end-of-input, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:6: unterminated string meets end of file
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected end-of-input, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:6: unterminated string meets end of file
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected end-of-input, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:6: unterminated string meets end of file
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected end-of-input, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:6: unterminated string meets end of file
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected end-of-input, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:4: syntax error, unexpected constant, expecting `end'
+app/views/export/show.xlsx.axlsx:6: unterminated string meets end of file
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:25:21 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 15.5ms | Allocations: 6109)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 8406)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:44:21 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 1.8ms | Allocations: 1623)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 3879)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - https://hh.ru/employer-logo/2766448.png):
+    1: wb = xlsx_package.workbook
+    2: 
+    3: wb.add_worksheet(name: 'Test') do |sheet|
+    4:     sheet.add_image(:image_src => 'https://hh.ru/employer-logo/2766448.png')
+    5:     sheet.add_row ['Title', 'First Release Date', 'Developer', 'Format', 'Collection', 'Released On', 'Summary']
+    6: end
+  
+app/views/export/show.xlsx.axlsx:4
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:47:25 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 1.5ms | Allocations: 1628)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 3905)
+
+
+  
+ActionView::Template::Error (Invalid Data true for unsigned_int. must be Integer.):
+    1: wb = xlsx_package.workbook
+    2: 
+    3: wb.add_worksheet(name: 'Test') do |sheet|
+    4:     sheet.add_image(image_src: "https://hh.ru/employer-logo/2766448.png", noSelect: false, noMove: true, end_at: true)
+    5:     sheet.add_row ['Title', 'First Release Date', 'Developer', 'Format', 'Collection', 'Released On', 'Summary']
+    6: end
+  
+app/views/export/show.xlsx.axlsx:4
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:54:20 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 401.0ms | Allocations: 124209)
+Completed 500 Internal Server Error in 406ms (ActiveRecord: 0.0ms | Allocations: 126486)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `image' for #<#<Class:0x00007f06c8010150>:0x00007f06c491e6d8>
+Did you mean?  image_url):
+    3: wb.add_worksheet(name: 'Test') do |sheet|
+    4:     t = Tempfile.new('https://hh.ru/employer-logo/2766448.png')
+    5:     t.binmode
+    6:     t.write image.read
+    7:     t.close
+    8:     sheet.add_image(image_src: t.path)
+    9:     sheet.add_row ['Title', 'First Release Date', 'Developer', 'Format', 'Collection', 'Released On', 'Summary']
+  
+app/views/export/show.xlsx.axlsx:6
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:55:10 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 3.0ms | Allocations: 1573)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3843)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 0, expected 1..2)):
+    3: wb.add_worksheet(name: 'Test') do |sheet|
+    4:     t = Tempfile.new('https://hh.ru/employer-logo/2766448.png')
+    5:     t.binmode
+    6:     t.write image_url.read
+    7:     t.close
+    8:     sheet.add_image(image_src: t.path)
+    9:     sheet.add_row ['Title', 'First Release Date', 'Developer', 'Format', 'Collection', 'Released On', 'Summary']
+  
+app/views/export/show.xlsx.axlsx:6
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:56:35 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 1.5ms | Allocations: 1624)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3894)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - app_cons.png):
+    1: wb = xlsx_package.workbook
+    2: 
+    3: wb.add_worksheet(name: 'Test') do |sheet|
+    4:     sheet.add_image(image_src: 'app_cons.png')
+    5:     sheet.add_row ['Title', 'First Release Date', 'Developer', 'Format', 'Collection', 'Released On', 'Summary']
+    6: end
+  
+app/views/export/show.xlsx.axlsx:4
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:57:17 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 12.3ms | Allocations: 5989)
+Completed 200 OK in 18ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 8279)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 12:59:27 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.9ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 19.0ms | Allocations: 9053)
+Completed 200 OK in 29ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 11329)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 13:06:57 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 7.9ms | Allocations: 6450)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 8726)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 13:31:52 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 2.5ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 17.0ms | Allocations: 6449)
+Completed 200 OK in 37ms (Views: 27.2ms | ActiveRecord: 0.0ms | Allocations: 8725)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 14:14:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 7.8ms | Allocations: 6663)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8955)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 15:08:26 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 10.4ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 27.7ms | Allocations: 6654)
+Completed 200 OK in 44ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 8931)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 15:51:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 18.4ms | Allocations: 7632)
+Completed 200 OK in 48ms (Views: 34.2ms | ActiveRecord: 0.0ms | Allocations: 9922)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 15:55:28 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 8.0ms | Allocations: 7621)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 9897)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 15:56:16 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 10.3ms | Allocations: 7620)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 9896)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 15:57:28 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 11.9ms | Allocations: 7501)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 9777)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 15:59:01 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 10.4ms | Allocations: 7504)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 9796)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:03:34 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 8.0ms | Allocations: 8210)
+Completed 200 OK in 13ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 10501)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:06:46 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 10.0ms | Allocations: 8947)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 11224)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:19:30 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 2.3ms | Allocations: 2491)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 4761)
+
+
+  
+ActionView::Template::Error (Invalid Data true for unsigned_int. must be Integer.):
+    10: 
+    11:     wb.add_worksheet(name: 'Test') do |sheet|
+    12:         img = File.expand_path(Rails.root + 'app/assets/images/image.png')
+    13:         sheet.add_image(:image_src => img, :end_at => true) do |image|
+    14:             image.start_at 0, 0
+    15:             image.end_at 3, 4
+    16:           end
+  
+app/views/export/show.xlsx.axlsx:13
+app/views/export/show.xlsx.axlsx:11
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:20:52 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 470.5ms | Allocations: 124999)
+Completed 500 Internal Server Error in 484ms (ActiveRecord: 0.0ms | Allocations: 127269)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `align_right' for #<#<Class:0x0000555df75f0988>:0x0000555df75b8380>):
+    15:             image.end_at 3, 4
+    16:           end
+    17: 
+    18:         sheet.add_row ["Date : ", @reporting_date], :style => [align_right, align_left]
+    19: 
+    20:         sheet.add_row ["Users Database"], :style => [title_cell]
+    21:         sheet.add_row []
+  
+app/views/export/show.xlsx.axlsx:18
+app/views/export/show.xlsx.axlsx:11
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:21:10 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 530.1ms | Allocations: 124940)
+Completed 500 Internal Server Error in 536ms (ActiveRecord: 0.0ms | Allocations: 127210)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `align_right' for #<#<Class:0x0000555df95908b0>:0x0000555df9580b18>):
+    12:         img = File.expand_path(Rails.root + 'app/assets/images/image.png')
+    13:         sheet.add_image(:image_src => img)
+    14: 
+    15:         sheet.add_row ["Date : ", @reporting_date], :style => [align_right, align_left]
+    16: 
+    17:         sheet.add_row ["Users Database"], :style => [title_cell]
+    18:         sheet.add_row []
+  
+app/views/export/show.xlsx.axlsx:15
+app/views/export/show.xlsx.axlsx:11
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:23:09 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 12.6ms | Allocations: 10655)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 12945)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:24:02 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.5ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 16.2ms | Allocations: 10013)
+Completed 200 OK in 22ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 12294)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:25:37 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 10.3ms | Allocations: 2479)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 4735)
+
+
+  
+ActionView::Template::Error (Invalid Data true for unsigned_int. must be Integer.):
+     9: 
+    10:     wb.add_worksheet(name: 'Test') do |sheet|
+    11:         sps_img = File.expand_path(Rails.root+'app/assets/images/image.png')
+    12:           sheet.add_image(:image_src => sps_img, :end_at => true) do |image|
+    13:             image.start_at 0, 0
+    14:             image.end_at 3, 4
+    15:           end
+  
+app/views/export/show.xlsx.axlsx:12
+app/views/export/show.xlsx.axlsx:10
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:28:03 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 3.1ms | Allocations: 2471)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4741)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/ekaterina/Projects/file-render-app/app/views/export/image.png):
+    13:             #
+    14:             # @note - Numbers does not support this part of the specification.
+    15: 
+    16:             sheet.add_image(:image_src => img, :noSelect => true, :noMove => true, :hyperlink=>"https://hh.ru/employer-logo/2766448.png") do |image|
+    17:               image.width=720
+    18:               image.height=666
+    19:               image.hyperlink.tooltip = "Labeled Link"
+  
+app/views/export/show.xlsx.axlsx:16
+app/views/export/show.xlsx.axlsx:10
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:28:47 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 36.7ms | Allocations: 10428)
+Completed 200 OK in 53ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 12718)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:29:38 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 17.5ms | Allocations: 10415)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 12691)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:30:07 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 13.5ms | Allocations: 10415)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 12691)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:31:17 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 11.6ms | Allocations: 10466)
+Completed 200 OK in 20ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 12756)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:32:07 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 28.3ms | Allocations: 10461)
+Completed 200 OK in 34ms (Views: 30.8ms | ActiveRecord: 0.0ms | Allocations: 12738)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:34:52 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.6ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 12.6ms | Allocations: 10463)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 12739)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:35:49 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 25.3ms | Allocations: 10464)
+Completed 200 OK in 30ms (Views: 27.7ms | ActiveRecord: 0.0ms | Allocations: 12741)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:38:13 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 21.2ms | Allocations: 10421)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 0.0ms | Allocations: 12711)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:40:00 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 13.8ms | Allocations: 10419)
+Completed 200 OK in 20ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 12695)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:45:03 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 17.7ms | Allocations: 10426)
+Completed 200 OK in 61ms (Views: 52.2ms | ActiveRecord: 0.0ms | Allocations: 12709)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:46:02 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.9ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 50.7ms | Allocations: 10413)
+Completed 200 OK in 84ms (Views: 76.9ms | ActiveRecord: 0.0ms | Allocations: 12703)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:55:50 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 1.0ms | Allocations: 1129)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 3386)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check wb = xlsx_package.workbook
+
+wb.styles do |s|
+
+    title_cell = s.add_style :fg_color => "FF8A2BE2", :sz => 25, :alignment => { :horizontal=> :center },
+    head_table = s.add_style :bg_color => "CCCCCCC", :fg_color => "00", :sz => 12, :alignment => { :horizontal=> :center }, :border => { :style => :thin, :color => "000000" }
+    row1_table = s.add_style :bg_color => "FF", :sz => 12, :alignment => { :horizontal=> :center }, :border => { :style => :thin, :color => "000000" }
+    row2_table = s.add_style :bg_color => "f2f2f2", :sz => 12, :alignment => { :horizontal=> :center }, :border => { :style => :thin, :color => "000000" }
+
+    wb.add_worksheet(name: 'Test') do |sheet|
+        img = File.expand_path('../image.png', __FILE__)
+            # specifying the :hyperlink option will add a hyper link to your image.
+            #
+            # @note - Numbers does not support this part of the specification.
+
+            sheet.add_image(:image_src => img, :noSelect => false, :noMove => false, :hyperlink=>"https://hh.ru/employer-logo/2766448.png") do |image|
+              image.hyperlink.tooltip = "Labeled Link"
+              image.start_at 2, 0
+            end
+
+        sheet.add_row ["Users Database"], :style => [title_cell]
+        sheet.add_row []
+
+        sheet.add_row ["id", "Name", "Username", "Email", "Phone", "Website", "Price", "Status"],
+                        :style => [head_table, head_table, head_table, head_table, head_table, head_table, head_table, head_table]
+
+        sheet.add_row ["1", "Test", "Test", "test@test.test", "71111111111", "www.test.test", "222", "free"],
+                        :style => [row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table]
+
+        sheet.add_row ["2", "Test2", "Test2", "test2@test.test", "72111111111", "www.test2.test", "111", "help"],
+                        :style => [row2_table, row2_table, row2_table, row2_table, row2_table, row2_table, row2_table, row2_table]
+
+        sheet.add_row ["3", "Test3", "Test3", "test3@test.test", "73111111111", "www.test3.test", "333", "help"],
+                        :style => [row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table]
+    end
+
+end
+):
+1:    wb = xlsx_package.workbook
+2:    
+3:    wb.styles do |s|
+4:    
+5:        title_cell = s.add_style :fg_color => "FF8A2BE2", :sz => 25, :alignment => { :horizontal=> :center },
+6:        head_table = s.add_style :bg_color => "CCCCCCC", :fg_color => "00", :sz => 12, :alignment => { :horizontal=> :center }, :border => { :style => :thin, :color => "000000" }
+7:        row1_table = s.add_style :bg_color => "FF", :sz => 12, :alignment => { :horizontal=> :center }, :border => { :style => :thin, :color => "000000" }
+8:        row2_table = s.add_style :bg_color => "f2f2f2", :sz => 12, :alignment => { :horizontal=> :center }, :border => { :style => :thin, :color => "000000" }
+9:    
+10:        wb.add_worksheet(name: 'Test') do |sheet|
+11:            img = File.expand_path('../image.png', __FILE__)
+12:                # specifying the :hyperlink option will add a hyper link to your image.
+13:                #
+14:                # @note - Numbers does not support this part of the specification.
+15:    
+16:                sheet.add_image(:image_src => img, :noSelect => false, :noMove => false, :hyperlink=>"https://hh.ru/employer-logo/2766448.png") do |image|
+17:                  image.hyperlink.tooltip = "Labeled Link"
+18:                  image.start_at 2, 0
+19:                end
+20:    
+21:            sheet.add_row ["Users Database"], :style => [title_cell]
+22:            sheet.add_row []
+23:    
+24:            sheet.add_row ["id", "Name", "Username", "Email", "Phone", "Website", "Price", "Status"],
+25:                            :style => [head_table, head_table, head_table, head_table, head_table, head_table, head_table, head_table]
+26:    
+27:            sheet.add_row ["1", "Test", "Test", "test@test.test", "71111111111", "www.test.test", "222", "free"],
+28:                            :style => [row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table]
+29:    
+30:            sheet.add_row ["2", "Test2", "Test2", "test2@test.test", "72111111111", "www.test2.test", "111", "help"],
+31:                            :style => [row2_table, row2_table, row2_table, row2_table, row2_table, row2_table, row2_table, row2_table]
+32:    
+33:            sheet.add_row ["3", "Test3", "Test3", "test3@test.test", "73111111111", "www.test3.test", "333", "help"],
+34:                            :style => [row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table]
+35:        end
+36:    
+37:    end
+  
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected symbol literal, expecting =>
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:38: syntax error, unexpected `end', expecting end-of-input
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected symbol literal, expecting =>
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:38: syntax error, unexpected `end', expecting end-of-input
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected symbol literal, expecting =>
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:38: syntax error, unexpected `end', expecting end-of-input
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected symbol literal, expecting =>
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:38: syntax error, unexpected `end', expecting end-of-input
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected symbol literal, expecting =>
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:38: syntax error, unexpected `end', expecting end-of-input
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected symbol literal, expecting =>
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:6: syntax error, unexpected ',', expecting `end'
+app/views/export/show.xlsx.axlsx:38: syntax error, unexpected `end', expecting end-of-input
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-28 16:57:09 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.6ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 18.8ms | Allocations: 10416)
+Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 12706)
+
+

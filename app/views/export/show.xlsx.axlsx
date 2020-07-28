@@ -1,0 +1,39 @@
+wb = xlsx_package.workbook
+
+wb.styles do |s|
+
+    title_cell = s.add_style :fg_color => "FF8A2BE2", :sz => 25, :alignment => { :horizontal=> :center }, :height => 100
+    head_table = s.add_style :bg_color => "CCCCCCC", :fg_color => "00", :sz => 12, :alignment => { :horizontal=> :center }
+    row1_table = s.add_style :bg_color => "FF", :sz => 12, :alignment => { :horizontal=> :center }
+    row2_table = s.add_style :bg_color => "f2f2f2", :sz => 12, :alignment => { :horizontal=> :center }
+
+    wb.add_worksheet(name: 'Test') do |sheet|
+        img = File.expand_path('../image.png', __FILE__)
+            # specifying the :hyperlink option will add a hyper link to your image.
+            #
+            # @note - Numbers does not support this part of the specification.
+
+            sheet.add_image(:image_src => img, :noSelect => false, :noMove => false, :hyperlink=>"https://hh.ru/employer-logo/2766448.png") do |image|
+              image.width=239
+              image.height=240
+              image.hyperlink.tooltip = "Labeled Link"
+              image.start_at 2, 0
+            end
+
+        sheet.add_row ["Users Database"], :style => [title_cell]
+        sheet.add_row []
+
+        sheet.add_row ["id", "Name", "Username", "Email", "Phone", "Website", "Price", "Status"],
+                        :style => [head_table, head_table, head_table, head_table, head_table, head_table, head_table, head_table]
+
+        sheet.add_row ["1", "Test", "Test", "test@test.test", "71111111111", "www.test.test", "222", "free"],
+                        :style => [row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table]
+
+        sheet.add_row ["2", "Test2", "Test2", "test2@test.test", "72111111111", "www.test2.test", "111", "help"],
+                        :style => [row2_table, row2_table, row2_table, row2_table, row2_table, row2_table, row2_table, row2_table]
+
+        sheet.add_row ["3", "Test3", "Test3", "test3@test.test", "73111111111", "www.test3.test", "333", "help"],
+                        :style => [row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table, row1_table]
+    end
+
+end
