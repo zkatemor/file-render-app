@@ -4876,3 +4876,319 @@ Processing by ExportController#show as HTML
 Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1098)
 
 
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 14:14:39 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 20.5ms | Allocations: 285)
+Completed 200 OK in 50ms (Views: 24.9ms | ActiveRecord: 0.0ms | Allocations: 2625)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 14:16:17 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.4ms | Allocations: 179)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1776)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 14:20:40 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.4ms | Allocations: 176)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1761)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 14:36:09 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.4ms | Allocations: 175)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 1754)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:37:28 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.4ms | Allocations: 175)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1105)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 14:37:51 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.4ms | Allocations: 175)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 1754)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:41:43 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.6ms | Allocations: 174)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 933)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:42:40 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.4ms | Allocations: 176)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1104)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:43:30 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.5ms | Allocations: 246)
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 1168)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 14:43:44 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 2.6ms | Allocations: 246)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 1825)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:45:57 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.6ms | Allocations: 177)
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 1099)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:09 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 379)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:11 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.4ms | Allocations: 174)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 1096)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:21 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 5)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 385)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:22 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.5ms | Allocations: 174)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1096)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:23 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 379)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:32 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:33 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.6ms | Allocations: 174)
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1097)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:57 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 379)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:58 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.4ms | Allocations: 174)
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 1096)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:46:59 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 379)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-30 14:47:11 +0300
+Processing by ExportController#show as HTML
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 14:49:45 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.5ms | Allocations: 173)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 1752)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-30 15:25:39 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.4ms | Allocations: 174)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1761)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:29:49 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.erb
+  Rendered export/show.xlsx.erb (Duration: 0.4ms | Allocations: 174)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 1796)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:30:33 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 57.5ms | Allocations: 10178)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms | Allocations: 11757)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:35:48 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 32.8ms | Allocations: 6351)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms | Allocations: 7927)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/ekaterina/Projects/file-render-app/app/views/export/image.png):
+    13: 
+    14:     wb.add_worksheet(name: worksheet_name) do |sheet|
+    15:         img = File.expand_path('../image.png', __FILE__)
+    16:         sheet.add_image(:image_src => img, :hyperlink => "https://hh.ru/employer-logo/2766448.png") do |image|
+    17:             image.width = 50
+    18:             image.height = 50
+    19:             image.hyperlink.tooltip = "Labeled Link"
+  
+app/views/export/show.xlsx.axlsx:16
+app/views/export/show.xlsx.axlsx:14
+app/views/export/show.xlsx.axlsx:5
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:36:38 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 5.7ms | Allocations: 3375)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.0ms | Allocations: 5693)
+
+
+  
+ActionView::Template::Error (No such file or directory @ rb_sysopen - /home/ekaterina/Projects/file-render-app/app/views/export/image.png):
+    13: 
+    14:     wb.add_worksheet(name: worksheet_name) do |sheet|
+    15:         img = File.expand_path('../image.png', __FILE__)
+    16:         sheet.add_image(:image_src => img, :hyperlink => "https://hh.ru/employer-logo/2766448.png") do |image|
+    17:             image.width = 50
+    18:             image.height = 50
+    19:             image.hyperlink.tooltip = "Labeled Link"
+  
+app/views/export/show.xlsx.axlsx:16
+app/views/export/show.xlsx.axlsx:14
+app/views/export/show.xlsx.axlsx:5
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:37:00 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 58.9ms | Allocations: 11538)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.0ms | Allocations: 13140)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:38:18 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 46.4ms | Allocations: 11420)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms | Allocations: 13005)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:39:27 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 36.1ms | Allocations: 11525)
+Completed 200 OK in 46ms (Views: 44.4ms | ActiveRecord: 0.0ms | Allocations: 13115)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-30 15:43:11 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/show.html.erb
+  Rendered export/show.html.erb (Duration: 0.4ms | Allocations: 176)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.yaml (3.0ms)
+Completed 200 OK in 408ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 2919)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 15:43:26 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 28.9ms | Allocations: 11315)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 11733)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-30 16:26:33 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 40.4ms | Allocations: 11523)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.0ms | Allocations: 13108)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-30 16:49:01 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.4ms | Allocations: 174)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 1598)
+
+
+Started GET "/export/show.json" for 127.0.0.1 at 2020-07-30 16:58:01 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as JSON
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 25.7ms | Allocations: 11534)
+Completed 200 OK in 31ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 12326)
+
+

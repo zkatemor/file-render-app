@@ -1,0 +1,43 @@
+wb = xlsx_package.workbook
+worksheet_name = 'My Worksheet'
+xlsx_package.use_autowidth = true
+
+wb.styles do |s|
+    title_cell = s.add_style :fg_color => "FF8A2BE2", :sz => 25, :alignment => {:horizontal => :center}
+    head_table = s.add_style :bg_color => "CCCCCCC", :fg_color => "00", :sz => 12, :alignment => {:horizontal => :center},
+                             :border => {:style => :thin, :color => "00"}
+    row1_table = s.add_style :bg_color => "FF", :sz => 12, :alignment => {:horizontal => :center},
+                             :border => {:style => :thin, :color => "00"}
+    row2_table = s.add_style :bg_color => "f2f2f2", :sz => 12, :alignment => {:horizontal => :center},
+                             :border => {:style => :thin, :color => "00"}
+
+    wb.add_worksheet(name: worksheet_name) do |sheet|
+        img = File.expand_path('../image.jpg', __FILE__)
+        sheet.add_image(:image_src => img, :hyperlink => "https://hh.ru/employer-logo/2766448.png") do |image|
+            image.width = 150
+            image.height = 120
+            image.hyperlink.tooltip = "Labeled Link"
+            image.start_at 2, 0
+        end
+
+        sheet.add_row ["Users Database"], :style => [title_cell], :height => 50
+        sheet.add_row []
+        sheet.add_row []
+        sheet.add_row []
+
+        sheet.add_row %w[id Name Username Email Phone Website Price Status],
+                      :style => [head_table, head_table, head_table, head_table, head_table, head_table, head_table, head_table]
+
+        @data = Array.new
+        @data << %w[1 Test Test test@test.test 71111111111 www.test.test 222 free]
+        @data << %w[2 Test2 Test2 test2@test.test 72111111111 www.test2.test 111 help]
+        @data << %w[3 Test3 Test3 test3@test.test 73111111111 www.test3.test 333 help]
+        @data.each_with_index do |data_row, index|
+            if index % 2 == 0
+                sheet.add_row(data_row, :style => row1_table)
+            else
+                sheet.add_row(data_row, :style => row2_table)
+            end
+        end
+    end
+end
