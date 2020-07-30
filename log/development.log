@@ -3292,3 +3292,855 @@ Processing by ExportController#show as XLSX
 Completed 200 OK in 30ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 12706)
 
 
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 09:22:41 +0300
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 27.9ms | Allocations: 166)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 52.5ms | Allocations: 10571)
+Completed 200 OK in 148ms (Views: 55.5ms | ActiveRecord: 0.0ms | Allocations: 13723)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 09:28:31 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 16.3ms | Allocations: 10607)
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 12905)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 09:29:41 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 15.1ms | Allocations: 11760)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 14043)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 09:53:44 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.5ms | Allocations: 62)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 151.5ms | Allocations: 5942)
+Completed 500 Internal Server Error in 218ms (ActiveRecord: 0.0ms | Allocations: 8211)
+
+
+  
+ActionView::Template::Error (undefined method `height=' for nil:NilClass):
+    11:                              :border => { :style => :thin, :color => "00" }
+    12: 
+    13:     wb.add_worksheet(name: 'Test') do |sheet|
+    14:         sheet.rows.values_at(1).each {|row| row.height = 50}
+    15:         img = File.expand_path('../image.png', __FILE__)
+    16:         # specifying the :hyperlink option will add a hyper link to your image.
+    17:         #
+  
+app/views/export/show.xlsx.axlsx:14
+app/views/export/show.xlsx.axlsx:14:in `each'
+app/views/export/show.xlsx.axlsx:14
+app/views/export/show.xlsx.axlsx:13
+app/views/export/show.xlsx.axlsx:3
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 10:09:33 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 21.2ms | Allocations: 11482)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.0ms | Allocations: 13780)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 10:19:51 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 32.2ms | Allocations: 11164)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 13440)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 10:24:14 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.6ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 16.9ms | Allocations: 9982)
+Completed 200 OK in 24ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 12258)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 10:32:08 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 44.1ms | Allocations: 77)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data  (22.9ms)
+Completed 200 OK in 132ms (Views: 131.3ms | ActiveRecord: 0.0ms | Allocations: 5330)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 10:32:37 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 4)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data  (0.9ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 4715)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 10:40:22 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.6ms | Allocations: 166)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 31.8ms | Allocations: 10158)
+Completed 200 OK in 63ms (Views: 39.9ms | ActiveRecord: 0.0ms | Allocations: 13310)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 10:51:21 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 63)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 28.1ms | Allocations: 9998)
+Completed 200 OK in 34ms (Views: 30.4ms | ActiveRecord: 0.0ms | Allocations: 12311)
+
+
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 10:51:29 +0300
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.1ms | Allocations: 9)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.4ms | Allocations: 83)
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 1029)
+
+
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 10:52:16 +0300
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.6ms | Allocations: 61)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.3ms | Allocations: 78)
+Completed 200 OK in 9ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1697)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-29 10:57:00 +0300
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.0ms | Allocations: 4)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 559)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-29 11:01:34 +0300
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.1ms | Allocations: 8)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 558)
+
+
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 11:08:02 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.5ms | Allocations: 77)
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 1703)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 11:08:17 +0300
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 28.4ms | Allocations: 10010)
+Completed 200 OK in 32ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 11605)
+
+
+Started GET "/export/show" for 127.0.0.1 at 2020-07-29 11:12:42 +0300
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 0.5ms | Allocations: 188)
+Completed 200 OK in 8ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1820)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 11:45:33 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3245)
+
+
+  
+NameError (uninitialized constant ExportController::Workbook):
+  
+app/controllers/export_controller.rb:10:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 11:46:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2696)
+
+
+  
+NameError (uninitialized constant ExportController::Workbook):
+  
+app/controllers/export_controller.rb:10:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 11:49:32 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2696)
+
+
+  
+NameError (uninitialized constant ExportController::Workbook):
+  
+app/controllers/export_controller.rb:10:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:01:19 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.1ms | Allocations: 9)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2699)
+
+
+  
+NameError (uninitialized constant ExportController::Workbook):
+  
+app/controllers/export_controller.rb:10:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:01:39 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.8ms | Allocations: 166)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3062)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - template.xlsx):
+  
+app/controllers/export_controller.rb:10:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:01:50 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 9)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 760)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - export/template.xlsx):
+  
+app/controllers/export_controller.rb:10:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:03:37 +0300
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 9)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 714)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /home/ekaterina/Projects/file-render-app/app/controllers/template.xlsx):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:03:55 +0300
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 62)
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.0ms | Allocations: 44441)
+
+
+  
+NoMethodError (undefined method `[]' for #<RubyXL::ColumnRange:0x000055ed15b7f018>):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:04:39 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms | Allocations: 24221)
+
+
+  
+NoMethodError (undefined method `[]' for #<RubyXL::ColumnRange:0x000055ed15a4ada0>):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:06:01 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms | Allocations: 24221)
+
+
+  
+NoMethodError (undefined method `[]' for #<RubyXL::ColumnRange:0x000055ed141fe6c0>):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:10:49 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1741)
+
+
+  
+Ole::Storage::FormatError (OLE2 signature is invalid):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:11:19 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 9)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1782)
+
+
+  
+Ole::Storage::FormatError (OLE2 signature is invalid):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:13:05 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1730)
+
+
+  
+Ole::Storage::FormatError (OLE2 signature is invalid):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:14:23 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 8)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 712)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - template.xlsx):
+  
+app/controllers/export_controller.rb:11:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.html" for 127.0.0.1 at 2020-07-29 12:17:45 +0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as HTML
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.html.erb within layouts/export
+  Rendered export/show.html.erb within layouts/export (Duration: 242.8ms | Allocations: 63494)
+Completed 500 Internal Server Error in 249ms (ActiveRecord: 0.0ms | Allocations: 65013)
+
+
+  
+ActionView::Template::Error (undefined method `products_path' for #<#<Class:0x00007fe0aca4dd98>:0x00007fe0aca4c498>):
+    1: <h1>List of users</h1>
+    2: <%= link_to 'Download as .xlsx', products_path(format: :xlsx) %>
+  
+app/views/export/show.html.erb:2
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 12:47:07 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.6ms | Allocations: 166)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.5ms | Allocations: 101)
+Completed 200 OK in 21ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 3265)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 12:50:03 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 62)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.3ms | Allocations: 86)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2376)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 12:51:33 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.5ms | Allocations: 62)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.4ms | Allocations: 86)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 2376)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.xsl" for 127.0.0.1 at 2020-07-29 13:57:01 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as 
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.5ms | Allocations: 166)
+Completed 406 Not Acceptable in 10ms (ActiveRecord: 0.0ms | Allocations: 2061)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 13:57:18 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.0ms | Allocations: 9)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.3ms | Allocations: 87)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1877)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 13:59:22 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.4ms | Allocations: 126)
+Completed 200 OK in 7ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2420)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:02:45 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.3ms | Allocations: 126)
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 2410)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:04:47 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 62)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.4ms | Allocations: 126)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 2416)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:10:43 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.5ms | Allocations: 62)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.6ms | Allocations: 575)
+Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2865)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:19:51 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.8ms | Allocations: 399)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2682)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:25:30 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.9ms | Allocations: 1214)
+Completed 200 OK in 6ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 3497)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:26:50 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 1.0ms | Allocations: 655)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2938)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:31:11 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.7ms | Allocations: 62)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.9ms | Allocations: 268)
+Completed 200 OK in 12ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 2568)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 14:35:34 +0300
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.7ms | Allocations: 62)
+  Rendering export/show.xls.erb
+  Rendered export/show.xls.erb (Duration: 0.9ms | Allocations: 413)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 2697)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-29 14:46:26 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 1.4ms | Allocations: 62)
+Completed 500 Internal Server Error in 2893ms (ActiveRecord: 0.0ms | Allocations: 1493)
+
+
+  
+PDFKit::ImproperWkhtmltopdfExitStatus (Command failed (exitstatus=1): /home/ekaterina/.rbenv/versions/2.7.0/bin/wkhtmltopdf --quiet --page-size A4 --margin-top 0.75in --margin-right 0.75in --margin-bottom 0.75in --margin-left 0.75in --encoding UTF-8 - -):
+  
+app/controllers/export_controller.rb:12:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-29 14:47:51 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.1ms | Allocations: 8)
+Completed 500 Internal Server Error in 1025ms (ActiveRecord: 0.0ms | Allocations: 1017)
+
+
+  
+PDFKit::ImproperWkhtmltopdfExitStatus (Command failed (exitstatus=1): /home/ekaterina/.rbenv/versions/2.7.0/bin/wkhtmltopdf --quiet --page-size A4 --margin-top 0.75in --margin-right 0.75in --margin-bottom 0.75in --margin-left 0.75in --encoding UTF-8 - -):
+  
+app/controllers/export_controller.rb:12:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-29 14:48:32 +0300
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 1.4ms | Allocations: 62)
+Completed 500 Internal Server Error in 2535ms (ActiveRecord: 0.0ms | Allocations: 1414)
+
+
+  
+PDFKit::ImproperWkhtmltopdfExitStatus (Command failed (exitstatus=1): /home/ekaterina/.rbenv/versions/2.7.0/bin/wkhtmltopdf --quiet --page-size A4 --margin-top 0.75in --margin-right 0.75in --margin-bottom 0.75in --margin-left 0.75in --encoding UTF-8 - -):
+  
+app/controllers/export_controller.rb:12:in `block (2 levels) in show'
+app/controllers/export_controller.rb:8:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-29 14:49:12 +0300
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.3ms | Allocations: 61)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (47.2ms)
+Completed 200 OK in 4468ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 4929)
+
+
+Started GET "/export/show.xlsx" for 127.0.0.1 at 2020-07-29 15:13:40 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLSX
+  Rendering export/pdfkit/users.html
+  Rendered export/pdfkit/users.html (Duration: 0.4ms | Allocations: 61)
+  Rendering export/show.xlsx.axlsx
+  Rendered export/show.xlsx.axlsx (Duration: 13.9ms | Allocations: 10180)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 12474)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-07-29 15:17:40 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/pdfkit/response.xml
+  Rendered export/pdfkit/response.xml (Duration: 16.1ms | Allocations: 60)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (1.2ms)
+Completed 200 OK in 2002ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1563)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 15:35:01 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/response.xml
+  Rendered export/pdfkit/response.xml (Duration: 11.6ms | Allocations: 58)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.xls (0.8ms)
+Completed 200 OK in 15ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1247)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 15:52:30 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/response.xml
+  Rendered export/pdfkit/response.xml (Duration: 23.6ms | Allocations: 59)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.xls (0.8ms)
+Completed 200 OK in 28ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1249)
+
+
+Started GET "/api-docs/index.html?urls.primaryName=API%20V2%20Docs" for 127.0.0.1 at 2020-07-29 16:36:18 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/index.html"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 16:46:45 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/response.xml
+  Rendered export/pdfkit/response.xml (Duration: 0.0ms | Allocations: 6)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.xls (0.4ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 560)
+
+
+Started GET "/export/show.xls" for 127.0.0.1 at 2020-07-29 16:56:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as XLS
+  Rendering export/pdfkit/response.xml
+  Rendered export/pdfkit/response.xml (Duration: 0.0ms | Allocations: 6)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data export.xls (0.7ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 559)
+
+

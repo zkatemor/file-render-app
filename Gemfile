@@ -75,3 +75,13 @@ gem 'bullet', group: 'development'
 
 gem 'caxlsx'
 gem 'caxlsx_rails'
+
+# import/export xlsx gems
+gem 'write_xlsx'
+gem 'rubyzip', '>= 1.2.1'
+gem 'axlsx', git: 'https://github.com/randym/axlsx.git', ref: 'c8ac844'
+gem 'axlsx_rails'
+
+gem 'workbook'
+
+gem 'csv'

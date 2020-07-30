@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/randym/axlsx.git
+  revision: c8ac844572b25fda358cc01d2104720c4c42f450
+  ref: c8ac844
+  specs:
+    axlsx (2.1.0.pre)
+      htmlentities (~> 4.3.4)
+      mimemagic (~> 0.3)
+      nokogiri (>= 1.6.6)
+      rubyzip (>= 1.2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -60,10 +71,9 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     ansi (1.5.0)
     ast (2.4.1)
-    axlsx (1.3.6)
-      htmlentities (~> 4.3.1)
-      nokogiri (>= 1.4.1)
-      rubyzip (>= 0.9.5)
+    axlsx_rails (0.6.1)
+      actionpack (>= 3.1)
+      caxlsx (>= 3.0)
     bindex (0.8.1)
     bootsnap (1.4.7)
       msgpack (~> 1.0)
@@ -95,6 +105,7 @@ GEM
     crass (1.0.6)
     css_parser (1.7.1)
       addressable
+    csv (3.1.5)
     erubi (1.9.0)
     excelinator (1.3.1)
       spreadsheet
@@ -179,6 +190,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rchardet (1.8.0)
     regexp_parser (1.7.1)
     responders (3.0.1)
       actionpack (>= 5.0)
@@ -187,6 +199,9 @@ GEM
       ansi
       ast
     ruby-ole (1.2.12.2)
+    rubyXL (3.4.14)
+      nokogiri (>= 1.10.8)
+      rubyzip (>= 1.3.0)
     rubyzip (2.3.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
@@ -251,6 +266,13 @@ GEM
     wicked_pdf (1.4.0)
       activesupport
     wkhtmltopdf-binary (0.12.6.2)
+    workbook (0.4.3)
+      nokogiri
+      rake
+      rchardet (~> 1.3)
+      rubyXL
+      rubyzip
+      spreadsheet (>= 0.7.5)
     write_xlsx (0.85.7)
       rubyzip (>= 1.0.0)
       zip-zip
@@ -266,6 +288,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  axlsx!
+  axlsx_rails
   bootsnap (>= 1.4.2)
   bullet
   byebug
@@ -273,6 +297,7 @@ DEPENDENCIES
   caxlsx
   caxlsx_rails
   css_parser
+  csv
   excelinator (~> 1.3, >= 1.3.1)
   jbuilder (~> 2.7)
   listen (~> 3.2)
@@ -282,6 +307,7 @@ DEPENDENCIES
   pry-rails
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.2)
+  rubyzip (>= 1.2.1)
   sass-rails (>= 6)
   selenium-webdriver
   spreadsheetkit
@@ -296,6 +322,8 @@ DEPENDENCIES
   webpacker (~> 4.0)
   wicked_pdf (~> 1.1)
   wkhtmltopdf-binary
+  workbook
+  write_xlsx
   write_xlsx_rails
 
 RUBY VERSION

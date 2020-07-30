@@ -3,15 +3,12 @@ class ExportController < ApplicationController
     # html = params[:html]
 
     ac = ActionController::Base.new()
-    html_string = ac.render_to_string :template => 'export/pdfkit/users.html'
+    html_string = ac.render_to_string :template => 'export/pdfkit/response.xml'
 
     respond_to do |format|
+      format.html
       format.pdf do
         kit = PDFKit.new(html_string, :page_size => 'A4')
-
-        # todo: не подгружаются стили
-        # kit.stylesheets << 'export/pdfkit/style.css'
-
         send_data(kit.to_pdf, :filename => "pdfkit.pdf")
       end
       format.xls do
