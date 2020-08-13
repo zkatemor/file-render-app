@@ -5948,3 +5948,118 @@ Sent data  (6.4ms)
 Completed 200 OK in 166ms (Views: 132.5ms | ActiveRecord: 0.0ms | Allocations: 15266)
 
 
+DEPRECATION WARNING: Initialization autoloaded the constants ActionText::ContentHelper and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ActionText::ContentHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/ekaterina/Projects/file-render-app/config/environment.rb:5)
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:32:45 +0300
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 6.5ms | Allocations: 672)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (39.2ms)
+Completed 200 OK in 2683ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 3868)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:35:58 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 0.0ms | Allocations: 5)
+Completed 500 Internal Server Error in 512ms (ActiveRecord: 0.0ms | Allocations: 1066)
+
+
+  
+PDFKit::ImproperWkhtmltopdfExitStatus (Command failed (exitstatus=1): /home/ekaterina/.rbenv/versions/2.7.0/bin/wkhtmltopdf --quiet --page-size A4 --margin-top 0.75in --margin-right 0.75in --margin-bottom 0.75in --margin-left 0.75in --encoding UTF-8 --zoom 1.32 --dpi 300 --margin top 0 bottom 0 left 0 right 0 - -):
+  
+app/controllers/export_controller.rb:18:in `block (2 levels) in show'
+app/controllers/export_controller.rb:3:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:38:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 0.0ms | Allocations: 5)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (1.0ms)
+Completed 200 OK in 836ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1053)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:39:20 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 0.0ms | Allocations: 4)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (1.3ms)
+Completed 200 OK in 819ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1041)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:39:46 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 0.0ms | Allocations: 4)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (0.9ms)
+Completed 200 OK in 841ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1035)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:41:44 +0300
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 3.4ms | Allocations: 563)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (0.9ms)
+Completed 200 OK in 1106ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 1934)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:42:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 0.0ms | Allocations: 4)
+Completed 500 Internal Server Error in 537ms (ActiveRecord: 0.0ms | Allocations: 1004)
+
+
+  
+PDFKit::ImproperWkhtmltopdfExitStatus (Command failed (exitstatus=1): /home/ekaterina/.rbenv/versions/2.7.0/bin/wkhtmltopdf --quiet --page-size A4 --margin-top 0.75in --margin-right 0.75in --margin-bottom 0.75in --margin-left 0.75in --encoding UTF-8 --dpi 300 --layout landscape - -):
+  
+app/controllers/export_controller.rb:13:in `block (2 levels) in show'
+app/controllers/export_controller.rb:3:in `show'
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:44:03 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 0.0ms | Allocations: 4)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (1.3ms)
+Completed 200 OK in 957ms (Views: 1.1ms | ActiveRecord: 0.0ms | Allocations: 1048)
+
+
+Started GET "/export/show.pdf" for 127.0.0.1 at 2020-08-06 10:46:06 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ExportController#show as PDF
+  Rendering export/new.html.erb
+  Rendered export/new.html.erb (Duration: 0.0ms | Allocations: 4)
+  Rendering text template
+  Rendered text template (Duration: 0.0ms | Allocations: 1)
+Sent data pdfkit.pdf (1.2ms)
+Completed 200 OK in 1214ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 899)
+
+

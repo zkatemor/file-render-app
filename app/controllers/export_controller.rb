@@ -3,9 +3,12 @@ class ExportController < ApplicationController
     respond_to do |format|
       format.html
       format.pdf do
-        html_string = ActionController::Base.new().render_to_string :template => 'export/show.html.erb'
+        html_string = ActionController::Base.new().render_to_string :template => 'export/new.html.erb'
 
-        kit = PDFKit.new(html_string, :page_size => 'A4')
+        kit = PDFKit.new(html_string, page_size: 'A4',
+                         dpi: 300,
+                         orientation:'Landscape' # trying new html template
+        )
 
         send_data(kit.to_pdf, :filename => "pdfkit.pdf")
       end

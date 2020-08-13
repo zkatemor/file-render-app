@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93a42853-56ec-4c4a-8aba-a4bcde588f71" name="Default Changelist" comment="render xls, xlsx, html &amp; pdf files">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/export_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/export_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/export/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/export/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/export/show.xls.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/export/show.xls.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/export/show.xlsx.axlsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/export/show.xlsx.axlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/export/xls/show.xlsx.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/export/show.xlsx.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/development.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,25 +56,25 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/export" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../backend_ruby-on-rails" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/views/export" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/app/controllers" />
-      <recent name="$PROJECT_DIR$/app/assets" />
-      <recent name="$PROJECT_DIR$/app/views/export/pdfkit" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/export" />
       <recent name="$PROJECT_DIR$/app/views/export/xls" />
       <recent name="$PROJECT_DIR$/app/views/export/pdfkit" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/app/assets/images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/export" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/app/controllers" />
+      <recent name="$PROJECT_DIR$/app/assets" />
+      <recent name="$PROJECT_DIR$/app/views/export/pdfkit" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: file-render-app">
@@ -198,7 +193,10 @@
       <workItem from="1595917198149" duration="21186000" />
       <workItem from="1596002769567" duration="23382000" />
       <workItem from="1596088131958" duration="18951000" />
-      <workItem from="1596176167138" duration="12637000" />
+      <workItem from="1596176167138" duration="14447000" />
+      <workItem from="1596694541383" duration="6929000" />
+      <workItem from="1596703857863" duration="1212000" />
+      <workItem from="1596779880203" duration="146000" />
     </task>
     <task id="LOCAL-00001" summary="render xls, xlsx, html &amp; pdf files">
       <created>1596099702156</created>
@@ -230,53 +228,53 @@
     <option name="LAST_COMMIT_MESSAGE" value="render xls, xlsx, html &amp; pdf files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="642" y="329" width="637" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595925734526">
+    <state x="642" y="329" width="637" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596697377759">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state x="642" y="329" width="637" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1595925734526" />
-    <state x="743" y="285" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596106036876">
+    <state x="642" y="329" width="637" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596697377759" />
+    <state x="743" y="285" width="424" height="484" key="FileChooserDialogImpl" timestamp="1596780024994">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state x="743" y="285" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596106036876" />
-    <state width="1874" height="306" key="GridCell.Tab.0.bottom" timestamp="1596198796437">
+    <state x="743" y="285" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596780024994" />
+    <state width="1874" height="256" key="GridCell.Tab.0.bottom" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.0.bottom/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796437" />
+    <state width="1874" height="256" key="GridCell.Tab.0.bottom/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.0.bottom/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573288" />
-    <state width="1874" height="306" key="GridCell.Tab.0.center" timestamp="1596198796436">
+    <state width="1874" height="256" key="GridCell.Tab.0.center" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.0.center/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796436" />
+    <state width="1874" height="256" key="GridCell.Tab.0.center/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.0.center/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573288" />
-    <state width="1874" height="306" key="GridCell.Tab.0.left" timestamp="1596198796436">
+    <state width="1874" height="256" key="GridCell.Tab.0.left" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.0.left/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796436" />
+    <state width="1874" height="256" key="GridCell.Tab.0.left/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.0.left/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573287" />
-    <state width="1874" height="306" key="GridCell.Tab.0.right" timestamp="1596198796436">
+    <state width="1874" height="256" key="GridCell.Tab.0.right" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.0.right/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796436" />
+    <state width="1874" height="256" key="GridCell.Tab.0.right/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.0.right/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573288" />
-    <state width="1874" height="306" key="GridCell.Tab.1.bottom" timestamp="1596198796437">
+    <state width="1874" height="256" key="GridCell.Tab.1.bottom" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.1.bottom/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796437" />
+    <state width="1874" height="256" key="GridCell.Tab.1.bottom/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.1.bottom/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573288" />
-    <state width="1874" height="306" key="GridCell.Tab.1.center" timestamp="1596198796437">
+    <state width="1874" height="256" key="GridCell.Tab.1.center" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.1.center/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796437" />
+    <state width="1874" height="256" key="GridCell.Tab.1.center/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.1.center/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573288" />
-    <state width="1874" height="306" key="GridCell.Tab.1.left" timestamp="1596198796437">
+    <state width="1874" height="256" key="GridCell.Tab.1.left" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.1.left/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796437" />
+    <state width="1874" height="256" key="GridCell.Tab.1.left/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.1.left/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573288" />
-    <state width="1874" height="306" key="GridCell.Tab.1.right" timestamp="1596198796437">
+    <state width="1874" height="256" key="GridCell.Tab.1.right" timestamp="1596703538477">
       <screen x="0" y="27" width="1920" height="1002" />
     </state>
-    <state width="1874" height="306" key="GridCell.Tab.1.right/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596198796437" />
+    <state width="1874" height="256" key="GridCell.Tab.1.right/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596703538477" />
     <state width="1874" height="250" key="GridCell.Tab.1.right/0.27.1920.1002/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596112573288" />
     <state x="449" y="162" key="SettingsEditor" timestamp="1596024491191">
       <screen x="0" y="27" width="1920" height="1002" />
@@ -292,6 +290,6 @@
     <state x="623" y="245" width="672" height="678" key="search.everywhere.popup/0.27.1920.1002/1920.0.1920.1080@0.27.1920.1002" timestamp="1596187452289" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/file_render_app@Development__file_render_app.rcov" NAME="Development: file-render-app Coverage Results" MODIFIED="1596198796395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="file-render-app" />
+    <SUITE FILE_PATH="coverage/file_render_app@Development__file_render_app.rcov" NAME="Development: file-render-app Coverage Results" MODIFIED="1596698306458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="file-render-app" />
   </component>
 </project>
